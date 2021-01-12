@@ -11,7 +11,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import Footer from "../components/Footer";
-import image from "../assets/images/Bridge.jpg";
+import image from "../assets/images/homeimg.jpg";
 
 const HomePage = () => {
   const background = `url(${image})`;
@@ -21,7 +21,7 @@ const HomePage = () => {
         backgroundImage={background}
         backgroundRepeat="no-repeat"
         bgPosition="center bottom"
-        bgSize="cover"
+        bgSize="auto"
         py={2}
       >
         <Stack spacing={8}>
